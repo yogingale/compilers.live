@@ -13,9 +13,6 @@ deploy:
     app: yogesh-portfolio
     on:
       branch: master
-  - provider: heroku
-    api_key:
-      secure: dScOcsuFjLjiCYKPUdnF6XWHzL2nOPpRKK+d9M2++asLklWgJ2FO+qckU/1wm3iCO9x4MmnTXrwrmpCHXqmbc58uhJFES7zorthzMPntqwW6kdT0Ypy5ZiAr6GJ00dNI1Vqf++XCqD7FUzJYpKfzYjcW3GsUPxzPhzkXz1evzkz9dopwU8nPRp3EiEm3n2OfR+b1PpU64AMllsqSLzluSRv9aOD+dVufpvWvmSHXSa2iwlko/hYtxPzU++/rZUdbTkzivHYwdrc6/+MFw0o7z0y5febuWclRXisf05QHChBEiMeIZcvSGZhDrpHaxmOs24DEAEeJhtlbFwSH7Ds4k6AP3tFHvHGrYAtVCPdY5cO8wXL7q3NJOkCPXQbkrFrOG7LkIjHYRR6DYPL8LmBMA1d5M3aZBl0YOnvvkBYs8N5y/y5PhOEHb0aBEG35O3SoAuJeOLReW0R5oBUQfkEW3TIximwmoAUn4DytqgATRovGpi3y1D5uCTn32a0Nr+aOh1Jfrzk3u0+E2SglZ8PLn8hyK6Zoc87gzbox7kwaIE32oyvmPfBFIe3SOZ8RluQC6AVUQDtofivhtKQdVwfxpeGx2oEZ4no68+GGY/Mt6MyASC/JZmMmWnGG/7jsYscUrmzwyRB/Hxmc7/xUvUhA3d52u2OgaqhZxB1jPYnxzTU=
     app: yogesh-portfolio-stage
     on:
       branch: stage
