@@ -11,3 +11,11 @@ deploy:
     api_key:
       secure: x9X0PGznwE9+WI0D7KFwE44vf7A63/qM5QZ4qp+q7PSOgosa86nMMIP7Fv97hZ7IP8n4dhjDxyULx4PY5oKndyC4G67UJvlbEjWk8BoyCZOvQFdBsaxJTHut2VQprAKrTQ+0CKVyGNDVCB/SwjFTgGBk/q7fHxJQNhfQLXdDMfcoe7yIMzNrR1BUN4G6qBjSoIEJVzBQpfBvRYHPkWP5Ic38xJPlcddo8VoHIY5gYYaoOyh2hxperi2/KX53vYIco6cZi0PvbqhJ61DEY3VA8RYhGCuyvCf3g2Wiu4bCX6ndra/jtHjOVhf8kY+rgZDKCxDKiqxxGWH2ghp7OZRobW1P2hWc16RuSSfVAr5T1tIsU4khy0nwKNI53HzfvI7kF5CAoSNxyHftka48YNPc8OwtO9DsgWeieRpUeRkH3X5pjCXhvlfJZiRYGLDa/VvDZ6m6ODt9T6i2FCckkyRO0ecXvxheF8n2Ok8qj8iSHYt8ty8S3HN/1A6d/h2gvEWeBoZs2aUy3DgAB0XlDWirUGKeeC7MQ1GzL3qr1wDIRF8+xJiIBni+cVs/mD9AmmGdgh++C95pgXmURBCcGpK9eFsSyS1FKGJxSdC5cTyaFn5OfhgG6hGeKEH7ryLg6eepbSqFpbVSFYkRXYyJFhlqj5m8cNnWIfx8MMF/aIpDqxw=
     app: yogesh-portfolio
+    on:
+      branch: master
+  - provider: heroku
+    api_key:
+      secure: cLMbT6PbYKs1zKWYcMiq6tU2ffNQ5FNI1B+X8lpvnW/KQdMMeOGyc8M/m40EjBXW27nNlcY+ASR15bQ/MG4KcDQsIpmTscRubJyj10+Asj0Z/nmLypCu+BvMeQWVUA0/OgUixWSkI+UowbDRsN6ZRbCn5s415E3TnBvqPXLSHzGXwH+8lEMuEdE+JIu3nt7adISLEC/YjvpRT3Vu9WfJCrp680l6QArVVCiFmQtbLJDkJFqP7IYolRiEvJQp0xbwK9nltADKQ9kkjeM6qSeMsVXo+vXs3GQcF+4yCTpZ7q2rAS78z/Zcu+9UKBt1L/cqWZCaN3LRGQiEj/GVT6Ia5ZLISw0pX32/Bm9KRxwctyIWw/4asgcljDw/A+g4869EvAubcILlV2HEpKhFlW34+IA1czCfAkCRQ9QBpIxW8WACkq1gSAAZTPs8WFeqOFwIZQIpNp32aeRy8TDHt/gGzeS0qm+gk4+yjjh3S64ZKT2dLyEVwe6uV/KII7RqatAZqkv6lpQUVJszVLEeVHUhDV1s6KHTaHVe6WapZ0eXvaeTkaSfN6KR3My/QHzWX36LjHSHSlAzhkg59N/gfS3aYK9MZLrmVRvRUxP6/pUzBz8DnzZtDOBidMLdIVj9ezmiwlL6qWivLotAAysLihToGdMNNZbpkdbVqsxNGWnFKAw=
+    app: yogesh-portfolio-stage
+    on:
+      branch: stage    
