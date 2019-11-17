@@ -7,17 +7,17 @@ install:
 script:
 - flake8 .
 deploy:
-  matrix:
-  - provider: heroku
-    api_key:
-      secure: zLrHobsQVSN3KP1eAX9meCdIKH47KdS6RdBmmW0Dhvez0/jhE7Hz5TOfnWyWUguN+CCXsF+et+HiTYMnulRIvybKoS3fhSbR//COGFY4N+rEA+kL6cy83pQvaa0qT8AOKFtGz12gtRCE+eOsQDapp+1TSeB/Fdo4LqkWbZcjiedmV7tjESlUlZ2kDWYiPOEI1ODsdbIorRFO1vciTxrd51WCE9KsBmVlx8l4flZnjjv8qPfFm/xnirRek7hgLpDfD1k6FlRRFVXQyrawMNMQL/DzFIYiGq7S83Q5CtjMpyCVDyk6fI9dgLHA8IRmHN1RrlljnwcAMNuFdk2xhYiB9KmNrm6NxQrnBRXTTUKbEctLvI0DvC0dfoqBU2fMRq/87wcDEk5+FdvmLRvam9or39UoF8DrvHDvosP7p5qF5XpaDdEJQ5otYfxSu1LZntQB05gcBv7kJBiCrBrfDWXnYU1BXokjanqYZkcxALX0modNVGCMYnLq4vJ8wOVC94bFEP9cXAH1b3inYA7v4ilOsTAA+dEu6zUstXLICn9zoTagSUR+lV0vL9UmDNQ7xqztqL7gEDOOUSd+aSNVw+f7eLRLhCce+PhjcM9rk/moi+WNNbgT4vEVY5Hvv+J1xVzgS37adY9CKODiTUBkdhp9bSixfFbXWa1jKT2Q73YsJIc=
-    app: yogesh-portfolio-stage
-    on:
-      branch: stage
   - provider: heroku
     api_key:
       secure: zLrHobsQVSN3KP1eAX9meCdIKH47KdS6RdBmmW0Dhvez0/jhE7Hz5TOfnWyWUguN+CCXsF+et+HiTYMnulRIvybKoS3fhSbR//COGFY4N+rEA+kL6cy83pQvaa0qT8AOKFtGz12gtRCE+eOsQDapp+1TSeB/Fdo4LqkWbZcjiedmV7tjESlUlZ2kDWYiPOEI1ODsdbIorRFO1vciTxrd51WCE9KsBmVlx8l4flZnjjv8qPfFm/xnirRek7hgLpDfD1k6FlRRFVXQyrawMNMQL/DzFIYiGq7S83Q5CtjMpyCVDyk6fI9dgLHA8IRmHN1RrlljnwcAMNuFdk2xhYiB9KmNrm6NxQrnBRXTTUKbEctLvI0DvC0dfoqBU2fMRq/87wcDEk5+FdvmLRvam9or39UoF8DrvHDvosP7p5qF5XpaDdEJQ5otYfxSu1LZntQB05gcBv7kJBiCrBrfDWXnYU1BXokjanqYZkcxALX0modNVGCMYnLq4vJ8wOVC94bFEP9cXAH1b3inYA7v4ilOsTAA+dEu6zUstXLICn9zoTagSUR+lV0vL9UmDNQ7xqztqL7gEDOOUSd+aSNVw+f7eLRLhCce+PhjcM9rk/moi+WNNbgT4vEVY5Hvv+J1xVzgS37adY9CKODiTUBkdhp9bSixfFbXWa1jKT2Q73YsJIc=
     app: yogesh-portfolio
     on:
       branch: master
+  - provider: heroku
+    api_key:
+      secure: zLrHobsQVSN3KP1eAX9meCdIKH47KdS6RdBmmW0Dhvez0/jhE7Hz5TOfnWyWUguN+CCXsF+et+HiTYMnulRIvybKoS3fhSbR//COGFY4N+rEA+kL6cy83pQvaa0qT8AOKFtGz12gtRCE+eOsQDapp+1TSeB/Fdo4LqkWbZcjiedmV7tjESlUlZ2kDWYiPOEI1ODsdbIorRFO1vciTxrd51WCE9KsBmVlx8l4flZnjjv8qPfFm/xnirRek7hgLpDfD1k6FlRRFVXQyrawMNMQL/DzFIYiGq7S83Q5CtjMpyCVDyk6fI9dgLHA8IRmHN1RrlljnwcAMNuFdk2xhYiB9KmNrm6NxQrnBRXTTUKbEctLvI0DvC0dfoqBU2fMRq/87wcDEk5+FdvmLRvam9or39UoF8DrvHDvosP7p5qF5XpaDdEJQ5otYfxSu1LZntQB05gcBv7kJBiCrBrfDWXnYU1BXokjanqYZkcxALX0modNVGCMYnLq4vJ8wOVC94bFEP9cXAH1b3inYA7v4ilOsTAA+dEu6zUstXLICn9zoTagSUR+lV0vL9UmDNQ7xqztqL7gEDOOUSd+aSNVw+f7eLRLhCce+PhjcM9rk/moi+WNNbgT4vEVY5Hvv+J1xVzgS37adY9CKODiTUBkdhp9bSixfFbXWa1jKT2Q73YsJIc=
+    app: yogesh-portfolio-stage
+    on:
+      branch: stage
+
 
