@@ -18,4 +18,4 @@ deploy:
       secure: cLMbT6PbYKs1zKWYcMiq6tU2ffNQ5FNI1B+X8lpvnW/KQdMMeOGyc8M/m40EjBXW27nNlcY+ASR15bQ/MG4KcDQsIpmTscRubJyj10+Asj0Z/nmLypCu+BvMeQWVUA0/OgUixWSkI+UowbDRsN6ZRbCn5s415E3TnBvqPXLSHzGXwH+8lEMuEdE+JIu3nt7adISLEC/YjvpRT3Vu9WfJCrp680l6QArVVCiFmQtbLJDkJFqP7IYolRiEvJQp0xbwK9nltADKQ9kkjeM6qSeMsVXo+vXs3GQcF+4yCTpZ7q2rAS78z/Zcu+9UKBt1L/cqWZCaN3LRGQiEj/GVT6Ia5ZLISw0pX32/Bm9KRxwctyIWw/4asgcljDw/A+g4869EvAubcILlV2HEpKhFlW34+IA1czCfAkCRQ9QBpIxW8WACkq1gSAAZTPs8WFeqOFwIZQIpNp32aeRy8TDHt/gGzeS0qm+gk4+yjjh3S64ZKT2dLyEVwe6uV/KII7RqatAZqkv6lpQUVJszVLEeVHUhDV1s6KHTaHVe6WapZ0eXvaeTkaSfN6KR3My/QHzWX36LjHSHSlAzhkg59N/gfS3aYK9MZLrmVRvRUxP6/pUzBz8DnzZtDOBidMLdIVj9ezmiwlL6qWivLotAAysLihToGdMNNZbpkdbVqsxNGWnFKAw=
     app: yogesh-portfolio-stage
     on:
-      branch: stage    
+      branch: stage
