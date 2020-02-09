@@ -29,5 +29,6 @@ Open the site on browser at http://127.0.0.1:5000/
 ## Extra
 To setup email configuration for contact us form. 
 add below environment variables-  
-EMAIL_USER=<email-address>
-EMAIL_PASSWORD=<email-app-password>
+EMAIL_USER="email-address"
+EMAIL_PASSWORD="email-app-password"
+Make sure to add these variables in heroku portal as well.
