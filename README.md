@@ -8,15 +8,15 @@ Stage - https://yogesh-portfolio-stage.herokuapp.com/
 
 ## Setup
 
-Create and Enable python virtual environment.
-`python -m venv venv`
-`source venv/Scripts/activate` - For Windows
-`source venv/bin/activate` - For Mac
+Create and Enable python virtual environment.  
+`python -m venv .venv`  
+`source venv/Scripts/activate` - For Windows  
+`source venv/bin/activate` - For Mac  
 
-Install Python dependencies
-`pip install -r requirements-dev.txt`
+Install Python dependencies  
+`pip install -r requirements-dev.txt`  
 
-Run the following to update then refresh your .bashrc:  
+Run the following to update .bashrc:  
 echo "source `which activate.sh`" >> ~/.bashrc  
 source ~/.bashrc  
 Now, if you move up a directory and then cd back into it, the virtual environment will automatically be started and the APP_SETTINGS variable is declared.  

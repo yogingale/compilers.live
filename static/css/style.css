@@ -90,7 +90,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #FFFFFF;
 }
 
 .overlay-mf {
@@ -744,7 +744,7 @@ a:hover {
 ======================================*/
 
 .counter-box {
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 
@@ -829,7 +829,7 @@ a:hover {
 }
 
 .testimonial-box {
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 
@@ -842,7 +842,7 @@ a:hover {
 }
 
 .testimonial-box .author {
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   font-weight: 600;
   margin: 1rem 0;
