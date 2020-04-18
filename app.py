@@ -45,7 +45,7 @@ def contact_us():
 
     msg = Message(
         subject="[compilers.live] Thanks for enquiry",
-        sender=app.config.get("MAIL_USERNAME"),
+        sender="contact@compilers.live",
         recipients=[request.form["email"]],
         body=email_body,
     )
