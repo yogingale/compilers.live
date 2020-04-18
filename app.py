@@ -27,7 +27,7 @@ def index():
 @app.route("/contactform", methods=["POST"])
 def contact_us():
     # Send email to admins
-    email_body = f"{request.form['name']} filled contact us form for compilers.team \
+    email_body = f"{request.form['name']} filled contact us form for compilers.live \
     and here is the message: \n{request.form['message']}."
     msg = Message(
         subject=request.form["subject"],
@@ -44,8 +44,8 @@ def contact_us():
     \n\nRegards,\nCompiler.team"
 
     msg = Message(
-        subject="[Compilers.team] Thanks for enquiry",
-        sender=app.config.get("MAIL_USERNAME"),
+        subject="[compilers.live] Thanks for enquiry",
+        sender="contact@compilers.live",
         recipients=[request.form["email"]],
         body=email_body,
     )
