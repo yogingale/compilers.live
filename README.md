@@ -1,11 +1,6 @@
 # compilers.live
 Portfolio website running as Flask app
 
-Prod - https://yogesh-portfolio.herokuapp.com/
-
-Stage - https://yogesh-portfolio-stage.herokuapp.com/
-
-
 ## Setup
 
 Create and Enable python virtual environment.  
